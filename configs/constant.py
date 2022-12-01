@@ -11,7 +11,7 @@ The paths below should be modified to adapt your project
 
 ## The pretrained model paths
 _C.I3D_MODEL_PATH='/data2/jiachang/model_rgb.pth'
-_C.C3D_MODEL_PATH='/data2/jiachang/C3D_Sport1M/pth'
+_C.C3D_MODEL_PATH='/data2/jiachang/C3D_Sport1M.pth'
 
 ## Trained Ckpts
 _C.UCF_C3D_MODEL_PATH='../ckpts/UCF_C3D_AUC_0.8143.pth'
