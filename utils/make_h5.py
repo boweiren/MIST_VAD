@@ -3,6 +3,7 @@ import h5py
 import os
 from tqdm import tqdm
 import numpy as np
+# from pathlib import Path
 
 """
 For training speed, we translate the video datasets into a single h5py file for reducing the indexing time in Disk
@@ -40,9 +41,10 @@ def Video2ImgH5(video_dir,h5_path,train_list,segment_len=16,max_vid_len=2000):
     print('finished!')
 
 if __name__=='__main__':
-    video_dir='/data0/jiachang/Anomaly-Videos/'
-    h5_file_path='/data0/jiachang/UCFCrime-Frames-16.h5'
-    txt_path='/data0/jiachang/Weakly_Supervised_VAD/Datasets/Anomaly_Train.txt'
+    video_dir='./data0/jiachang/Anomaly-Videos/'
+    h5_file_path='./data0/jiachang/UCFCrime-Frames-16.h5'
+    # txt_path='./data0/jiachang/Weakly_Supervised_VAD/Datasets/Anomaly_Test.txt'
+    txt_path='./data0/jiachang/Weakly_Supervised_VAD/Datasets/test.txt'
     train_list=[]
     with open(txt_path,'r')as f:
         paths=f.readlines()
