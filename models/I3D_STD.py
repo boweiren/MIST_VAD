@@ -295,7 +295,7 @@ class I3D(torch.nn.Module):
         # out = self.softmax(out_logits)
         return out,out_4f,out_3f#, out_logits
 
-class I3D_SGA_STD(nn.Module):
+class I3D_SGA_STD(torch.nn.Module):
     def __init__(self,dropout_rate,expand_k,freeze_bn=False,freeze_backbone=False,freeze_blocks=None,freeze_bn_statics=False,
                  pretrained_backbone=False,pretrained_path=None):
         super(I3D_SGA_STD, self).__init__()
