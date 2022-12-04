@@ -1,7 +1,7 @@
-Robbery001_x264.mp4	Robbery	45	1350	-1	-1	2382
-Robbery002_x264.mp4	Robbery	0	1000	-1	-1	1188
-Robbery003_x264.mp4	Robbery	0	2748	-1	-1	2773
-Stealing001_x264.mp4	Stealing	0	503	-1	-1	554
+Robbery001_x264.mp4	Robbery	960	1380	-1	-1	2382
+Robbery002_x264.mp4	Robbery	0	1188	-1	-1	1188
+Robbery003_x264.mp4	Robbery	72	1056	-1	-1	2773
+Stealing001_x264.mp4	Stealing	270	360	-1	-1	554
 Normal_Videos_001_x264.mp4	Normal	-1	-1	-1	-1	518
 Normal_Videos_002_x264.mp4	Normal	-1	-1	-1	-1	1350
 Normal_Videos_003_x264.mp4	Normal	-1	-1	-1	-1	885
