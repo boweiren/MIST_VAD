@@ -23,7 +23,7 @@ _C.SHT_I3D_MODEL_PATH='../ckpts/SHT_I3D_AUC_0.9483.pth'
 _C.TEST_SPATIAL_ANNOTATION_PATH='../data/Test_Spatial_Annotation.npy'
 ############ 2. UCF Data ###########################
 _C.TRAIN_H5_PATH='/data2/jiachang/UCFCrime-Frames.h5'
-_C.TEST_H5_PATH='../testing/data2/jiachang/UCFCrime-Frames-test.h5'
+_C.TEST_H5_PATH='/data2/jiachang/UCFCrime-Frames-test.h5'
 _C.TESTING_TXT_PATH='../data/Temporal_Anomaly_Annotation_New.txt'
 
 _C.PSEUDO_LABEL_PATH_I3D='../data/UCF_I3D_PLs.npy'
