@@ -219,6 +219,7 @@ class Test_Dataset_C3D(Dataset):
             frames = h5[key][:]
         key_tmp, idx = key.split('-')
         idx = int(idx)
+        # print(self.annotation_dict)
         anno = self.annotation_dict[key_tmp + '.mp4'][
                idx * self.segment_len :(idx + 1) * self.segment_len ]
         if 'Normal' in key_tmp:
