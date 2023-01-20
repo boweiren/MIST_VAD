@@ -1,14 +1,37 @@
+Animal001_x264.mp4	Animal	-1	-1	518
+Animal002_x264.mp4	Animal	-1	-1	491
+Animal003_x264.mp4	Animal	-1	-1	2822
+Animal004_x264.mp4	Animal	-1	-1	1224
 Animal005_x264.mp4	Animal	-1	-1	603
 Animal006_x264.mp4	Animal	-1	-1	1016
 Animal007_x264.mp4	Animal	-1	-1	684
+Armed001_x264.mp4	Armed	960	1380	-1	-1	2382
+Armed002_x264.mp4	Armed	0	2773	-1	-1	2773
+Armed003_x264.mp4	Armed	72	1056	-1	-1	1188
+Armed004_x264.mp4	Armed	1200	2070	-1	-1	2082
+Armed005_x264.mp4	Armed	66	295	-1	-1	295
 Armed006_x264.mp4	Armed	270	780	-1	-1	801
 Armed007_x264.mp4	Armed	0	1953	-1	-1	1953
 Armed008_x264.mp4	Armed	360	500	-1	-1	518
+Delivery001_x264.mp4	Delivery	-1	-1	-1	-1	885
+Delivery002_x264.mp4	Delivery	-1	-1	-1	-1	1427
+HomeInvasion001_x264.mp4	HomeInvasion	1620	6360	-1	-1	8292
+HomeInvasion002_x264.mp4	HomeInvasion	380	759	-1	-1	759
+Kid001_x264.mp4	Kid	-1	-1	-1	-1	1350
+Kid002_x264.mp4	Kid	-1	-1	-1	-1	2205
 Kid003_x264.mp4	Kid	-1	-1	-1	-1	3422
 Kid004_x264.mp4	Kid	-1	-1	-1	-1	1886
 Kid005_x264.mp4	Kid	-1	-1	-1	-1	1854
+PackageTheft001_x264.mp4	PackageTheft	270	360	-1	-1	554
+PackageTheft002_x264.mp4	PackageTheft	75	270	-1	-1	313
 PackageTheft003_x264.mp4	PackageTheft	240	1410	-1	-1	1423
 Solicitor001_x264.mp4	Solicitor	-1	-1	-1	-1	2938
+StayLong001_x264.mp4	StayLong	90	660	-1	-1	725
+StayLong002_x264.mp4	StayLong	0	909	-1	-1	909
+StayLong003_x264.mp4	StayLong	90	968	-1	-1	968
+StayLong004_x264.mp4	StayLong	690	1717	-1	-1	1717
+StayLong005_x264.mp4	StayLong	150	630	-1	-1	630
+StayLong006_x264.mp4	StayLong	0	450	570	713	713
 StayLong007_x264.mp4	StayLong	270	570	-1	-1	576
 StayLong008_x264.mp4	StayLong	210	810	-1	-1	811
 StayLong009_x264.mp4	StayLong	90	180	480	750	987
