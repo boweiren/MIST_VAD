@@ -31,7 +31,7 @@ _C.PSEUDO_LABEL_PATH_C3D='../data/UCF_C3D_PLs.npy'
 
 ############# 3. SHT Data ##########################
 _C.SHT_TRAIN_H5_PATH='/data2/jiachang/SHT_Frames.h5'
-_C.SHT_TEST_H5_PATH='/data2/jiachang/SHT_Frames.h5'
+_C.SHT_TEST_H5_PATH='SHT_Frames.h5'
 
 _C.SHT_TEST_MASK_DIR='../data/test_frame_mask/'
 _C.SHT_TRAIN_TXT_PATH='../data/SH_Train_new.txt'
