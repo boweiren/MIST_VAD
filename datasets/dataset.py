@@ -24,9 +24,8 @@ def read_testing_txt(file_path):
 
     return vids_dict
 
-Abnormal_type=['Abuse','Arrest','Arson','Assault','Burglary',
-               'Explosion','Fighting','RoadAccidents','Robbery',
-               'Shooting','Shoplifting','Stealing','Vandalism','Normal']
+Abnormal_type=['Animal','Armed','Delivery','HomeInvasion','Kid',
+               'PackageTheft','Solicitor','StayLong']
 
 class Test_Dataset_I3D(Dataset):
     def __init__(self, h5_file, test_txt, segment_len, ten_crop=False, height=256, width=340, crop_size=224):
