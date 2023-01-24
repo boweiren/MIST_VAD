@@ -87,9 +87,9 @@ def eval_UCF(args,model,test_dataloader):
             score = [score] * args.segment_len
             total_scores.extend(score)
             total_labels.extend(anno.tolist())
-            if ano_type=='Normal':
+            if ano_type=='Kid' or ano_type=='Animal' or ano_type=='Delivery' or ano_type=='Solicitor':
                 normal_scores.extend(score)
-            if args.vis and ano_type != 'Normal':
+            if args.vis and (ano_type!='Kid' or ano_type!='Animal' or ano_type!='Delivery' or ano_type!='Solicitor'):
                 spa_annos = test_spatial_annotation[key]
 
                 for f_idx in range(idx * args.segment_len, args.segment_len * (idx + 1)):
