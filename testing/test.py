@@ -7,7 +7,7 @@ import models
 from datasets.dataset import Test_Dataset_C3D,Test_Dataset_I3D,Test_Dataset_SHT_C3D,Test_Dataset_SHT_I3D
 # from utils.balanced_dataparallel import BalancedDataParallel
 from torch.utils.data import DataLoader
-from utils.eval_utils import cal_auc,cal_score_gap,cal_false_alarm
+from utils.eval_utils import cal_auc,cal_score_gap,cal_false_alarm,cal_accuracy
 from visualization.Grad_CAM import GradCAM
 from visualization.CAM import visualize_CAM_with_clip
 import random
@@ -124,7 +124,8 @@ def eval(total_scores,total_labels,normal_scores):
     auc = cal_auc(total_scores, total_labels)
     far=cal_false_alarm(normal_scores,np.zeros(len(normal_scores),dtype=int))
     gap=cal_score_gap(total_scores,total_labels)
-    print('{}: AUC {:.2f}%, FAR {:.2f}%, GAP {:.2f}%'.format(args.MODEL,auc*100,far*100,gap*100))
+    acc=cal_accuracy(total_scores,total_labels)
+    print('{}: AUC {:.2f}%, FAR {:.2f}%, GAP {:.2f}%, ACC {:.2f}%'.format(args.MODEL,auc*100,far*100,gap*100,acc*100))
 
 def test(args):
     model,dataloader=load_model_dataset(args)
