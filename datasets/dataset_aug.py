@@ -869,5 +869,3 @@ class Train_TemAug_Dataset_C3D(Dataset):
             return clips,np.array(labels)
         else:
             return clips,np.array(labels),self.get_rgb_diff(clips)
-
-        
