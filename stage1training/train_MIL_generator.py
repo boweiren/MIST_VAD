@@ -128,7 +128,7 @@ def parser_arg():
 
     parser.add_argument('--machine',type=str,default='data0')
 
-    parser.add_argument('--feature_rgb_path', type=str, default='/jiachang/SHT_I3D.h5')
+    parser.add_argument('--feature_rgb_path', type=str, default='/jiachang/SHT_I3D_RGB.h5')
     parser.add_argument('--model_path_pre', type=str, default='/jiachang/Weakly_Supervised_VAD/models/shanghaitech_single')
     parser.add_argument('--training_txt',type=str,default='/jiachang/Weakly_Supervised_VAD/Datasets/SH_Train_new.txt')
     parser.add_argument('--testing_txt',type=str,default='/jiachang/Weakly_Supervised_VAD/Datasets/SH_Test_NEW.txt')

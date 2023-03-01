@@ -5,8 +5,8 @@ import random
 import os
 import torch
 
-Abnormal_type=['Animal','Armed','Delivery','HomeInvasion','Kid',
-               'PackageTheft','Solicitor','StayLong']
+Abnormal_type=['Armed','HomeInvasion','Normal',
+               'PackageTheft','StayLong']
 
 
 class AverageMeter(object):

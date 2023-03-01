@@ -2,9 +2,8 @@ from sklearn import metrics
 import numpy as np
 import torch
 import torch.nn.functional as F
-Abnormal_type=[     'Abuse','Arrest','Arson','Assault','Burglary',
-                    'Explosion','Fighting','Normal','RoadAccidents','Robbery',
-                    'Shooting','Shoplifting','Stealing','Vandalism' ]
+Abnormal_type=[     'Armed','Delivery','Normal','PackageTheft1','Sneak',
+                    'StayLong','SuspiciousRun' ]
 
 def cal_f1(scores,labels):
     return metrics.f1_score(labels,scores)
