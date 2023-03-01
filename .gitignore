@@ -1,4 +1,5 @@
 /data0/jiachang/UCFCrime-Frames-16.h5
+/data0/jiachang/Anomaly-Videos/*
 /ckpts
 /datasets/data2
 /testing/data2
@@ -7,3 +8,9 @@
 /apex
 /testing/UCFCrime-Frames-test.h5
 .DS_Store
+*.out
+*.h5
+cc_eval.sh
+cc_train1.sh
+cc_train2.sh
+

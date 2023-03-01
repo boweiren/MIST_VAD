@@ -99,7 +99,9 @@ def eval_UCF(args,model,test_dataloader):
                         cam_clip = visualize_CAM_with_clip(cam_map, clip, (320, 240))
                         cv2.imwrite(cam_path, cam_clip)
 
-
+    print(total_scores)
+    print(total_labels)
+    print(normal_scores)
     return eval(total_scores,total_labels,normal_scores)
 
 def eval_SHT(model,test_dataloader):
