@@ -1,5 +1,6 @@
 /data0/jiachang/UCFCrime-Frames-16.h5
-/data0/jiachang/Anomaly-Videos/*
+/data0/jiachang/Anomaly-Videos
+/data0/jiachang/Anomaly-Videos-New
 /ckpts
 /datasets/data2
 /testing/data2

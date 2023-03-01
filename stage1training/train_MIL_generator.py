@@ -65,7 +65,7 @@ def train(args):
             optimizer.step()
 
             # if count % 10 == 0:
-            print('[{}/{}]: loss {:.4f}, err {:.4f}, l1 {:.4f}， l2 {:.4f} kl {:.4f}'.format(
+            print('[{}/{}]: loss {:.4f}, err {:.4f}, l1 {:.4f}, l2 {:.4f} kl {:.4f}'.format(
                 count, epoch, loss, err, l1, l3,kl))
             count += 1
         dataloader.dataset.shuffle_keys()
