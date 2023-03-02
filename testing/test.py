@@ -87,7 +87,7 @@ def eval_UCF(args,model,test_dataloader):
             score = [score] * args.segment_len
             total_scores.extend(score)
             total_labels.extend(anno.tolist())
-            print(ano_type)
+            # print(ano_type)
             if ano_type=='Normal':
                 normal_scores.extend(score)
             if args.vis and (ano_type!='Normal'):
@@ -100,8 +100,8 @@ def eval_UCF(args,model,test_dataloader):
                         cam_clip = visualize_CAM_with_clip(cam_map, clip, (320, 240))
                         cv2.imwrite(cam_path, cam_clip)
 
-    print(np.mean(total_scores))
-    print(np.mean(total_labels))
+    # print(np.mean(total_scores))
+    # print(np.mean(total_labels))
     return eval(total_scores,total_labels,normal_scores)
 
 def eval_SHT(model,test_dataloader):

@@ -29,8 +29,8 @@ def cal_auc(scores,labels):
     return auc
 
 def cal_false_alarm(scores,labels,threshold=0.5):
-    print(scores)
-    print(labels)
+    # print(scores)
+    # print(labels)
     scores=np.array([1 if score>threshold else 0 for score in scores],dtype=float)
     # false_num=0.
     # _len=len(labels)
